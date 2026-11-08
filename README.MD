@@ -1,5 +1,26 @@
 # BRPG
-BRPG is meant to be a rpg game written in unity
+BRPG is meant to be a rpg game written in unity, i plan to add a factory part ot it when i can
+
+# How inventory works
+
+Items are a scriptalbe object in unity
+
+```cs
+// Item.cs
+using UnityEngine;
+
+[CreateAssetMenu(fileName = "New Item", menuName = "Inventory/Item")]
+public class Item : ScriptableObject
+{
+    public string itemName;
+    public Sprite icon;
+    public bool isStackable = false;
+    public int maxStack = 1;
+    public GameObject itemPrefab;
+}
+```
+
+So i can jst attach it to a item to add
 
 # Models
 I made the models in blender and i did textures in photopea
