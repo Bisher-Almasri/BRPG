@@ -1,6 +1,8 @@
 # BRPG
 BRPG is meant to be a rpg game written in unity, i plan to add a factory part ot it when i can
 
+![BRPG gameplay](SCR-20261108-pway.png)
+
 # How inventory works
 
 Items are a scriptalbe object in unity
