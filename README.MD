@@ -25,6 +25,8 @@ So i can jst attach it to a item to add
 # Models
 I made the models in blender and i did textures in photopea
 
+Models were not too hard but i havent used blender in a while and UV maps made my head hurt
+
 # How to test
 The link to test is here: https://play.unity.com/en/games/59c3bed3-c8b6-48f7-8167-cad2e8e62694/build
 
